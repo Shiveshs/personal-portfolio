@@ -1,8 +1,8 @@
 import React from "react";
 import "./testimonials.css";
-import ClientImg_1 from "../../assets/avatar1.jpg";
-import ClientImg_2 from "../../assets/avatar2.jpg";
-import ClientImg_3 from "../../assets/avatar3.webp";
+import ClientImg_1 from "../../assets/renuka.jpg";
+import ClientImg_2 from "../../assets/bikas.jpg";
+import ClientImg_3 from "../../assets/laxmi.jpg";
 import ClientImg_4 from "../../assets/avatar4.jpg";
 
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -24,28 +24,28 @@ import { Pagination } from "swiper";
 const data = [
   {
     avatar: ClientImg_1,
-    clientName: "Anne Hathway",
+    clientName: "Renuka Komajpillewar",
     review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit.Quas dolores numquam ducimus unde totam similique culpa sunt eligendi eius, autem, corporis repellat delectus temporibus quidem voluptas voluptatibus cum recusandae ex.",
+      "Shivesh has always been meticulous in learning new skills and has always showed a persistent attitude in solving problems.",
   },
   {
     avatar: ClientImg_2,
-    clientName: "Bob Marley",
+    clientName: "Bikas C Mahata",
     review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit.Quas dolores numquam ducimus unde totam similique culpa sunt eligendi eius, autem, corporis repellat delectus temporibus quidem voluptas voluptatibus cum recusandae ex.",
+      "Shivesh is someone who you can rely on. He won't rest until he has delivered the best that he can. He shows a great attitude to lear and grow.",
   },
   {
     avatar: ClientImg_3,
-    clientName: "Biege Bailey",
+    clientName: "Laxmi Rout",
     review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit.Quas dolores numquam ducimus unde totam similique culpa sunt eligendi eius, autem, corporis repellat delectus temporibus quidem voluptas voluptatibus cum recusandae ex.",
+      "Working with Shivesh will make you feel enthusiastic about the work, no matter how tough the timeline is. He is someone who comes up with out of the box ideas at the oddest hours and solves the problem.",
   },
-  {
-    avatar: ClientImg_4,
-    clientName: "Hezy Snizer",
-    review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit.Quas dolores numquam ducimus unde totam similique culpa sunt eligendi eius, autem, corporis repellat delectus temporibus quidem voluptas voluptatibus cum recusandae ex.",
-  },
+  // {
+  //   avatar: ClientImg_4,
+  //   clientName: "Hezy Snizer",
+  //   review:
+  //     "Lorem ipsum dolor sit amet consectetur adipisicing elit.Quas dolores numquam ducimus unde totam similique culpa sunt eligendi eius, autem, corporis repellat delectus temporibus quidem voluptas voluptatibus cum recusandae ex.",
+  // },
 ];
 const Testimonials = () => {
   return (

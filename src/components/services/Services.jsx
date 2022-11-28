@@ -137,7 +137,9 @@ const Services = () => {
 
         <article className="service">
           <div className="service__head">
-            <h3>Content Creation</h3>
+          <h2>System Engineer</h2>
+            <h3>Tata Consultancies Services</h3>
+            <h5>June 2018 - January 2021</h5>
           </div>
           <ul className="service__list">
             <li>
@@ -187,10 +189,6 @@ const Services = () => {
                 Demo user stories to client stakeholders at the end of each
                 sprint.
               </p>
-            </li>
-            <li>
-              <BsFillCheckCircleFill className="service__list-icon" />
-              <p>Peer code review and Defect fixes for developed modules.</p>
             </li>
           </ul>
         </article>
