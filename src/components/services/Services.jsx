@@ -138,7 +138,7 @@ const Services = () => {
         <article className="service">
           <div className="service__head">
           <h2>System Engineer</h2>
-            <h3>Tata Consultancies Services</h3>
+            <h3>Tata Consultancy Services</h3>
             <h5>June 2018 - January 2021</h5>
           </div>
           <ul className="service__list">
