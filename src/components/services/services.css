@@ -27,9 +27,22 @@
     box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.30);
 }
 
+.service__head h2 {
+    color: var(--color-bg);
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 700;
+}
+
 .service__head h3 {
     color: var(--color-bg);
     font-size: 1rem;
+    text-align: center;
+}
+
+.service__head h5 {
+    color: var(--color-bg);
+    font-size: 0.8rem;
     text-align: center;
 }
 
@@ -45,11 +58,13 @@
 
 .service__list-icon {
     color: var(--color-primary);
-    margin-top: 2px;
+    margin-top: -4.5px;
+    font-size: 2rem;
 }
 
 .service__list p {
     font-size: 0.9rem;
+    text-align: justify;
 }
 
 /* =========== Media Queries (Medium Devices) ============= */

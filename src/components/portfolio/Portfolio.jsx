@@ -1,6 +1,6 @@
 import React from "react";
 import "./portfolio.css";
-import ProjectImg_1 from "../../assets/portfolio1.jpg";
+import ProjectImg_1 from "../../assets/portfolio1.PNG";
 import ProjectImg_2 from "../../assets/portfolio2.jfif";
 import ProjectImg_3 from "../../assets/portfolio3.jpg";
 import ProjectImg_4 from "../../assets/portfolio4.jpg";
@@ -11,9 +11,9 @@ const data = [
   {
     id: 1,
     image: ProjectImg_1,
-    title: " Project1",
-    github: "https://github.com",
-    demo: "https://reactdocs.com",
+    title: " Personal Portfolio",
+    github: "https://github.com/Shiveshs/personal-portfolio",
+    demo: "https://shiveshs.github.io/personal-portfolio/",
   },
   {
     id: 2,
