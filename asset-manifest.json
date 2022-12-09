@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/personal-portfolio/static/css/main.5b5aa97d.css",
-    "main.js": "/personal-portfolio/static/js/main.e1f61cb6.js",
+    "main.js": "/personal-portfolio/static/js/main.ef903d74.js",
     "static/media/me-about.jpg": "/personal-portfolio/static/media/me-about.0e77433c7a0122c9d1c9.jpg",
     "static/media/portfolio1.PNG": "/personal-portfolio/static/media/portfolio1.dea19edcb4e15098746f.PNG",
     "static/media/CV.pdf": "/personal-portfolio/static/media/CV.afc44cf3388b8077a283.pdf",
@@ -10,6 +10,7 @@
     "static/media/me.png": "/personal-portfolio/static/media/me.52087b3345e1d3f54366.png",
     "static/media/portfolio4.jpg": "/personal-portfolio/static/media/portfolio4.471c80691fc5fdd7e6ec.jpg",
     "static/media/renuka.jpg": "/personal-portfolio/static/media/renuka.c83952bd539b678abd81.jpg",
+    "static/media/femaleAvatar.png": "/personal-portfolio/static/media/femaleAvatar.1a37251c6333f0c03fe7.png",
     "static/media/portfolio2.jfif": "/personal-portfolio/static/media/portfolio2.58c6d8c3fd330d777ef7.jfif",
     "static/media/portfolio6.jpg": "/personal-portfolio/static/media/portfolio6.d1b9d1be2dc4520df957.jpg",
     "static/media/avatar4.jpg": "/personal-portfolio/static/media/avatar4.13587a88c3bc6a3ecba4.jpg",
@@ -18,10 +19,10 @@
     "static/media/portfolio5.jfif": "/personal-portfolio/static/media/portfolio5.f19fca1e8273f783b6ae.jfif",
     "index.html": "/personal-portfolio/index.html",
     "main.5b5aa97d.css.map": "/personal-portfolio/static/css/main.5b5aa97d.css.map",
-    "main.e1f61cb6.js.map": "/personal-portfolio/static/js/main.e1f61cb6.js.map"
+    "main.ef903d74.js.map": "/personal-portfolio/static/js/main.ef903d74.js.map"
   },
   "entrypoints": [
     "static/css/main.5b5aa97d.css",
-    "static/js/main.e1f61cb6.js"
+    "static/js/main.ef903d74.js"
   ]
 }
