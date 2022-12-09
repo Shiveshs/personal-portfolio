@@ -59,10 +59,11 @@ const Testimonials = () => {
         // install Swiper modules
         pagination={{ clickable: true }}
         modules={[Pagination]}
+        spaceBetween={40}
       >
         {data.map(({ avatar, clientName, review }, index) => {
           return (
-            <SwiperSlide className="testimonial">
+            <SwiperSlide key={index} className="testimonial">
               <div className="client__avatar">
                 <img src={avatar} alt="ClientImg_1" />
               </div>
