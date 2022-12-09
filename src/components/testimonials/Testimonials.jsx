@@ -4,6 +4,7 @@ import ClientImg_1 from "../../assets/renuka.jpg";
 import ClientImg_2 from "../../assets/bikas.jpg";
 import ClientImg_3 from "../../assets/laxmi.jpg";
 import ClientImg_4 from "../../assets/avatar4.jpg";
+import femaleAvatar from "../../assets/femaleAvatar.png"
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -40,12 +41,12 @@ const data = [
     review:
       "Working with Shivesh will make you feel enthusiastic about the work, no matter how tough the timeline is. He is someone who comes up with out of the box ideas at the oddest hours and solves the problem.",
   },
-  // {
-  //   avatar: ClientImg_4,
-  //   clientName: "Hezy Snizer",
-  //   review:
-  //     "Lorem ipsum dolor sit amet consectetur adipisicing elit.Quas dolores numquam ducimus unde totam similique culpa sunt eligendi eius, autem, corporis repellat delectus temporibus quidem voluptas voluptatibus cum recusandae ex.",
-  // },
+  {
+    avatar: femaleAvatar,
+    clientName: "Afreen Shakeer",
+    review:
+      "Shivesh did an exceptional job on recent projects. As I remember, he was a very productive person and is a multi-skilled person with vast knowledge. He is careful, proactive, self motivated and intelligent team player. It’s a pleasure working with him as he is a customer-service oriented colleague. Thanks to interpersonal skills, he has great relations with both company clients and potential customers.",
+  },
 ];
 const Testimonials = () => {
   return (
