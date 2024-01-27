@@ -1,0 +1,46 @@
+{
+  "title": "about",
+  "description": "About Page",
+  "type": "object",
+  "properties": {
+    "pageTitle": {
+      "description": "Title of the page",
+      "type": "object",
+      "properties": { "h5": "Get to Know", "h2": "About Me" }
+    },
+    "subtitles": {
+      "description": "Subtitles of the page",
+      "type": "array",
+      "properties": [
+        {
+          "subtitle": "Experience",
+          "details": "5.5+ Years"
+        },
+        {
+          "subtitle": "Clients",
+          "details": "6+ International Clients"
+        },
+        {
+          "subtitle": "Projects",
+          "details": "9+ Delivered Projects"
+        }
+      ]
+    },
+    "summary": {
+      "description": "summary of the page",
+      "type": "object",
+      "properties": {
+        "line1": "Over 5.5+ years of extensive experience as a Front end web developer in developing and designing user experiences of web applications using HTML5, CSS, CSS3, SASS, LESS, JavaScript, ReactJs, Redux, ES6, Webpack, JSON, Node.js, Ajax, Bootstrap.",
+        "line2": "Experience in all phases of SDLC like Requirement Analysis, Implementation and Maintenance, and extensive experience with Agile and SCRUM.",
+        "line3": "Expertise in ReactJs along with experience in middleware using Redux, Redux Toolkit and other ReactJs libraries like React Router, Tanstack UI, Axios, Material UI, Stotybook and others."
+      }
+    },
+    "link": {
+      "description": "link of the page",
+      "type": "object",
+      "properties": {
+        "link": "Let's Talk"
+      }
+    }
+  }
+}
