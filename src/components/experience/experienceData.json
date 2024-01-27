@@ -1,0 +1,92 @@
+{
+  "title": "experience",
+  "description": "Experience Page",
+  "type": "object",
+  "properties": {
+    "pageTitle": {
+      "description": "Title of the page",
+      "type": "object",
+      "properties": { "h5": "Skills I Have", "h2": "My Experience" }
+    },
+    "subtitles": {
+      "description": "Subtitles of the page",
+      "type": "array",
+      "properties": {
+        "frontend": {
+          "title": "Frontend Development",
+          "properties": [
+            {
+              "subtitle": "HTML5",
+              "details": "Experienced"
+            },
+            {
+              "subtitle": "CSS3",
+              "details": "Experienced"
+            },
+            {
+              "subtitle": "SASS",
+              "details": "Intermediate"
+            },
+            {
+              "subtitle": "JavaScript",
+              "details": "Experienced"
+            },
+            {
+              "subtitle": "ReactJS",
+              "details": "Expert"
+            },
+            {
+              "subtitle": "Redux Toolkit",
+              "details": "Experienced"
+            },
+            {
+              "subtitle": "Material UI",
+              "details": "Experienced"
+            },
+            {
+              "subtitle": "NextJS",
+              "details": "Basic"
+            }
+          ]
+        },
+        "backend": {
+          "title": "Backend Development",
+          "properties": [
+            {
+              "subtitle": "NodeJS",
+              "details": "Basic"
+            },
+            {
+              "subtitle": "ExpressJS",
+              "details": "Basic"
+            },
+            {
+              "subtitle": "GraphQL",
+              "details": "Intermediate"
+            },
+            {
+              "subtitle": "MongoDB",
+              "details": "Basic"
+            },
+            {
+              "subtitle": "Firebase",
+              "details": "Intermediate"
+            },
+            {
+              "subtitle": "Apollo Server",
+              "details": "Basic"
+            },
+            {
+              "subtitle": "My SQL",
+              "details": "Experienced"
+            },
+            {
+              "subtitle": "REST Api",
+              "details": "Experienced"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

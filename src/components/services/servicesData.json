@@ -1,0 +1,111 @@
+{
+  "title": "experience",
+  "description": "Experience Page",
+  "type": "object",
+  "properties": {
+    "pageTitle": {
+      "description": "Title of the page",
+      "type": "object",
+      "properties": {
+        "h5": "Where and what I have worked on",
+        "h2": "Work Experiences"
+      }
+    },
+    "experiences": {
+      "description": "Subtitles of the page",
+      "type": "array",
+      "properties": [
+        {
+          "organisation": {
+            "title": "Mphasis",
+            "h2": "Senior Software Engineer",
+            "h3": "Mphasis Limited",
+            "h5": "December 2021 - Present",
+            "properties": [
+              {
+                "details": "Leading a team of 3 UI developers in crafting a healthcare dashboard for TRHC, showcasing expertise in ReactJS, Redux Toolkit, Tanstack UI, and Material UI."
+              },
+              {
+                "details": "Designed and implemented dynamic smart tables for user, organization, customer, email queue, and fax queue data, ensuring responsiveness and user-friendly interfaces."
+              },
+              {
+                "details": "Implemented robust smart table functionalities, including sorting, pagination, search, row selection, and user preferences."
+              },
+              {
+                "details": "Utilized Tanstack UI utilities and ReactJS to build the application from scratch, focusing on security through JWT token-based authentication and efficient data retrieval with RTK queries."
+              },
+              {
+                "details": "Successfully delivered the healthcare project, providing role based access control and restrictions."
+              },
+              {
+                "details": "Contributed to AIG projects, specializing in loan features for the financial application."
+              },
+              {
+                "details": "Leveraged Node.js and Express.js to design and implement backend functionalities for one of the projects."
+              }
+            ]
+          }
+        },
+        {
+          "organisation": {
+            "title": "Mphasis",
+            "h2": "Senior System Engineer",
+            "h3": "IBM India Pvt. Ltd.",
+            "h5": "January 2021 - December 2021",
+            "properties": [
+              {
+                "details": "Enhanced Tiffany’s e-commerce website by designing visually appealing carousels, hero components, and banner components."
+              },
+              {
+                "details": "Led the creation of UI elements for new features, emphasizing the shipping details and card details pages."
+              },
+              {
+                "details": "Contributed significantly to internationalization efforts, making the application accessible across multiple languages and countries."
+              },
+              {
+                "details": "Ensured website responsiveness on various devices, addressing bugs, and testing features using BrowserStack."
+              },
+              {
+                "details": "Involved in writing application-level code to interact with APIs using AJAX, AXIOS, JSON."
+              },
+              {
+                "details": "Used Lighthouse and react profiler tool for optimising code quality and application performance."
+              },
+              {
+                "details": "Involved in writing application-level code to interact with APIs using AJAX, AXIOS, JSON."
+              }
+            ]
+          }
+        },
+        {
+          "organisation": {
+            "title": "Mphasis",
+            "h2": "System Engineer",
+            "h3": "Tata Consultansy Services",
+            "h5": "June 2018 - January 2021",
+            "properties": [
+              {
+                "details": "Contributed as a React developer in the Barclays Data Portal project, specializing in small to medium-complex components."
+              },
+              {
+                "details": "Key contributor to the RFT Dashboard, implementing color-coded data visualization and robust notifications."
+              },
+              {
+                "details": "Utilized Apollo Client and Server for efficient data management, integrating real-time data updates."
+              },
+              {
+                "details": "Applied automation testing using Cypress, ensuring reliability and stability of critical functionalities."
+              },
+              {
+                "details": "Used Apollo Client to make service calls to the GraphQL backend."
+              },
+              {
+                "details": "Used jest and enzyme to write unit test cases and ensured minimum 85% code coverage."
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

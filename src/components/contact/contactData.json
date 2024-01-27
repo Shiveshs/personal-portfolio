@@ -1,0 +1,41 @@
+{
+    "title": "contact",
+    "description": "Contact Me Page",
+    "type": "object",
+    "properties": {
+      "pageTitle": {
+        "description": "Title of the page",
+        "type": "object",
+        "properties": { "h5": "Get in Touch", "h2": "Contact Me" }
+      },
+      "subtitles": {
+        "description": "Subtitles of the page",
+        "type": "array",
+        "properties": [
+          {
+            "subtitle": "Email",
+            "details": "shivesh.shandilya1@gmail.com",
+            "link": "Send Mail"
+          },
+          {
+            "subtitle": "Messenger",
+            "details": "Shivesh Shandilya",
+            "link": "Send a Message"
+          },
+          {
+            "subtitle": "Whatsapp",
+            "details": "+91-7008011484",
+            "link": "Send Direct Message"
+          }
+        ]
+      },
+      "link": {
+        "description": "link of the page",
+        "type": "object",
+        "properties": {
+          "link": "Send Message"
+        }
+      }
+    }
+  }
+  

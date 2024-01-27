@@ -3,7 +3,7 @@ import "./testimonials.css";
 import ClientImg_1 from "../../assets/renuka.jpg";
 import ClientImg_2 from "../../assets/bikas.jpg";
 import ClientImg_3 from "../../assets/laxmi.jpg";
-import ClientImg_4 from "../../assets/avatar4.jpg";
+// import ClientImg_4 from "../../assets/avatar4.jpg";
 import femaleAvatar from "../../assets/femaleAvatar.png"
 
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -15,25 +15,18 @@ import "swiper/css/pagination";
 // import required modules
 import { Pagination } from "swiper";
 
-// const pagination = {
-//   clickable: true,
-//   renderBullet: function (index, className) {
-//     return '<span class="' + className + '">' + (index + 1) + "</span>";
-//   },
-// };
-
 const data = [
   {
     avatar: ClientImg_1,
     clientName: "Renuka Komajpillewar",
     review:
-      "Shivesh has always been meticulous in learning new skills and has always showed a persistent attitude in solving problems.",
+      "Shivesh is amazing IT professional. He possess Good technical and analytical skills. Fantastic team player and can be an asset to any team. Always hungry to learn new technology and skills. Appreciate all his efforts during his tenure in TCS. Very hard working and one can always count on him. He has demonstrated amazing grasping capability in complex project and delivered big time.",
   },
   {
     avatar: ClientImg_2,
     clientName: "Bikas C Mahata",
     review:
-      "Shivesh is someone who you can rely on. He won't rest until he has delivered the best that he can. He shows a great attitude to lear and grow.",
+      "We have worked together on Tiifany projects, and I found him a and dedicated professional. His expertise in the field of JavaScript has helped our company immensely. He's also an all-around great guy to work with! I highly recommend him to anyone looking for help on their team or Frontend project.",
   },
   {
     avatar: ClientImg_3,

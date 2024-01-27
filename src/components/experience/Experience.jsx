@@ -1,106 +1,55 @@
 import React from "react";
 import "./experience.css";
-import { BsPatchCheckFill} from "react-icons/bs";
+import { BsPatchCheckFill } from "react-icons/bs";
+import data from "./experienceData.json";
 
 const Experience = () => {
   return (
     <section id="experience">
-      <h5> Skills I Have</h5>
-      <h2>My Experience</h2>
+      <h5>{data.properties.pageTitle.properties.h5}</h5>
+      <h2>{data.properties.pageTitle.properties.h2}</h2>
 
       <div className="container experience__container">
         <div className="experience__frontend">
-          <h3>Frontend Development</h3>
+          <h3>{data.properties.subtitles.properties.frontend.title}</h3>
           <div className="experience__content">
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>HTML</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>CSS</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>JavaScript</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>ReactJS</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>Bootstrap</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>VueJS</h4>
-                <small className="text-light">Basic</small>
-              </div>
-            </article>
+            {data.properties.subtitles.properties.frontend.properties.map(
+              (property, index) => {
+                return (
+                  <article
+                    key={property.subtitle + index}
+                    className="experience__details"
+                  >
+                    <BsPatchCheckFill className="experience__details-icon" />
+                    <div>
+                      <h4>{property.subtitle}</h4>
+                      <small className="text-light">{property.details}</small>
+                    </div>
+                  </article>
+                );
+              }
+            )}
           </div>
         </div>
         <div className="experience__backend">
-          <h3>Backend Development</h3>
+          <h3>{data.properties.subtitles.properties.backend.title}</h3>
           <div className="experience__content">
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>NodeJS</h4>
-                <small className="text-light">Basic</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>ExpressJS</h4>
-                <small className="text-light">Basic</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>GraphQL</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>MongoDB</h4>
-                <small className="text-light">Basic</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>Firebase</h4>
-                <small className="text-light">Basic</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>Apollo Server</h4>
-                <small className="text-light">Basic</small>
-              </div>
-            </article>
+            {data.properties.subtitles.properties.backend.properties.map(
+              (property, index) => {
+                return (
+                  <article
+                    key={property.subtitle + index}
+                    className="experience__details"
+                  >
+                    <BsPatchCheckFill className="experience__details-icon" />
+                    <div>
+                      <h4>{property.subtitle}</h4>
+                      <small className="text-light">{property.details}</small>
+                    </div>
+                  </article>
+                );
+              }
+            )}
           </div>
         </div>
       </div>
@@ -109,7 +58,3 @@ const Experience = () => {
 };
 
 export default Experience;
-
-// page no. 115 se 124 : Stamp + sign
-// Page no. 63 se 67 tak : stamp + sign
-//page 63, 65, 
