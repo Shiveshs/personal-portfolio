@@ -1,7 +1,7 @@
 import React from "react";
 import "./portfolio.css";
 import ProjectImg_1 from "../../assets/portfolio1.PNG";
-// import ProjectImg_2 from "../../assets/portfolio2.jfif";
+import ProjectImg_2 from "../../assets/portfolio2.jfif";
 // import ProjectImg_3 from "../../assets/portfolio3.jpg";
 // import ProjectImg_4 from "../../assets/portfolio4.jpg";
 // import ProjectImg_5 from "../../assets/portfolio5.jfif";
@@ -15,13 +15,13 @@ const data = [
     github: "https://github.com/Shiveshs/personal-portfolio",
     demo: "https://shiveshs.github.io/personal-portfolio/",
   },
-  // {
-  //   id: 2,
-  //   image: ProjectImg_2,
-  //   title: " Project2",
-  //   github: "https://github.com",
-  //   demo: "https://reactdocs.com",
-  // },
+  {
+    id: 2,
+    image: ProjectImg_2,
+    title: " Tic Tac Toe",
+    github: "https://github.com/Shiveshs/tic-tac-toe",
+    demo: "https://shiveshs.github.io/tic-tac-toe/",
+  },
   // {
   //   id: 3,
   //   image: ProjectImg_3,
