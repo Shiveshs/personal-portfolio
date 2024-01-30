@@ -2,10 +2,6 @@ import React from "react";
 import "./portfolio.css";
 import ProjectImg_1 from "../../assets/portfolio1.PNG";
 import ProjectImg_2 from "../../assets/portfolio2.PNG";
-// import ProjectImg_3 from "../../assets/portfolio3.jpg";
-// import ProjectImg_4 from "../../assets/portfolio4.jpg";
-// import ProjectImg_5 from "../../assets/portfolio5.jfif";
-// import ProjectImg_6 from "../../assets/portfolio6.jpg";
 
 const data = [
   {
@@ -21,35 +17,7 @@ const data = [
     title: " Tic Tac Toe",
     github: "https://github.com/Shiveshs/tic-tac-toe",
     demo: "https://shiveshs.github.io/tic-tac-toe/",
-  },
-  // {
-  //   id: 3,
-  //   image: ProjectImg_3,
-  //   title: " Project3",
-  //   github: "https://github.com",
-  //   demo: "https://reactdocs.com",
-  // },
-  // {
-  //   id: 4,
-  //   image: ProjectImg_4,
-  //   title: " Project4",
-  //   github: "https://github.com",
-  //   demo: "https://reactdocs.com",
-  // },
-  // {
-  //   id: 5,
-  //   image: ProjectImg_5,
-  //   title: " Project5",
-  //   github: "https://github.com",
-  //   demo: "https://reactdocs.com",
-  // },
-  // {
-  //   id: 6,
-  //   image: ProjectImg_6,
-  //   title: " Project6",
-  //   github: "https://github.com",
-  //   demo: "https://reactdocs.com",
-  // },
+  }
 ];
 
 const Portfolio = () => {
@@ -62,17 +30,18 @@ const Portfolio = () => {
         {data.map(({id,image,demo,github,title}, key=id)=>{
           return <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={image} alt="Project Image One" />
+            <img src={image} alt="Project One" />
           </div>
           <h3>{title}</h3>
           <div className="portfolio__item-cta">
-            <a href={github} target="_blank" className="btn">
+            <a href={github} target="_blank" className="btn" rel="noreferrer">
               Github
             </a>
             <a
               href={demo}
               target="_blank"
               className="btn btn-primary"
+              rel="noreferrer"
             >
               Live Demo
             </a>
