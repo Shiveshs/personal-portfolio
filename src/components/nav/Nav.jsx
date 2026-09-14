@@ -10,10 +10,10 @@ import {TbMessage} from 'react-icons/tb'
 
 
 const Nav = () => {
-  const [activeNow, setActiveNow] = useState('#')
+  const [activeNow, setActiveNow] = useState('#home')
   return (
     <nav>
-      <a href='#' onClick={()=> setActiveNow('#')} className={activeNow === '#' ? 'active' : ''}><AiOutlineHome/></a>
+      <a href='#home' onClick={()=> setActiveNow('#home')} className={activeNow === '#home' ? 'active' : ''}><AiOutlineHome/></a>
       <a href='#about' onClick={()=> setActiveNow('#about')} className={activeNow === '#about' ? 'active' : ''}><AiOutlineUser/></a>
       <a href='#experience' onClick={()=> setActiveNow('#experience')} className={activeNow === '#experience' ? 'active' : ''}><BiBook/></a>
       <a href='#services' onClick={()=> setActiveNow('#services')} className={activeNow === '#services' ? 'active' : ''}><RiServiceLine/></a>

@@ -6,7 +6,10 @@
     "pageTitle": {
       "description": "Title of the page",
       "type": "object",
-      "properties": { "h5": "Get to Know", "h2": "About Me" }
+      "properties": {
+        "h5": "Get to Know",
+        "h2": "About Me"
+      }
     },
     "subtitles": {
       "description": "Subtitles of the page",
@@ -14,15 +17,15 @@
       "properties": [
         {
           "subtitle": "Experience",
-          "details": "5.5+ Years"
+          "details": "8+ Years"
         },
         {
-          "subtitle": "Clients",
-          "details": "6+ International Clients"
+          "subtitle": "Organisations",
+          "details": "4 Companies"
         },
         {
-          "subtitle": "Projects",
-          "details": "9+ Delivered Projects"
+          "subtitle": "Industries",
+          "details": "Healthcare, Insurance, E-commerce & BFSI"
         }
       ]
     },
@@ -30,9 +33,9 @@
       "description": "summary of the page",
       "type": "object",
       "properties": {
-        "line1": "Over 5.5+ years of extensive experience as a Front end web developer in developing and designing user experiences of web applications using HTML5, CSS, CSS3, SASS, LESS, JavaScript, ReactJs, Redux, ES6, Webpack, JSON, Node.js, Ajax, Bootstrap.",
-        "line2": "Experience in all phases of SDLC like Requirement Analysis, Implementation and Maintenance, and extensive experience with Agile and SCRUM.",
-        "line3": "Expertise in ReactJs along with experience in middleware using Redux, Redux Toolkit and other ReactJs libraries like React Router, Tanstack UI, Axios, Material UI, Stotybook and others."
+        "line1": "Senior Fullstack Developer with 8+ years of experience building enterprise web applications across healthcare, insurance, e-commerce, and BFSI.",
+        "line2": "Frontend-heavy expertise in React, TypeScript, JavaScript, responsive and accessible UI architecture, complex data-driven workflows, testing, and performance optimization, complemented by hands-on backend development with Node.js, Express.js, REST APIs, and MongoDB.",
+        "line3": "Experienced in end-to-end feature ownership, API contracts and integrations, CI/CD, observability, production troubleshooting, Agile delivery, code reviews, and mentoring engineers."
       }
     },
     "link": {

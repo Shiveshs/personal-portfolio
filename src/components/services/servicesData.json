@@ -7,8 +7,8 @@
       "description": "Title of the page",
       "type": "object",
       "properties": {
-        "h5": "Where and what I have worked on",
-        "h2": "Work Experiences"
+        "h5": "My professional journey",
+        "h2": "Work Experience"
       }
     },
     "experiences": {
@@ -17,90 +17,114 @@
       "properties": [
         {
           "organisation": {
-            "title": "Mphasis",
-            "h2": "Senior Software Engineer",
-            "h3": "Mphasis Limited",
-            "h5": "December 2021 - Present",
+            "title": "RamSoft Inc.",
+            "h2": "Senior Software Developer",
+            "h3": "RamSoft Inc.",
+            "h5": "Mar 2024 - Aug 2026",
+            "context": "Remote | OmegaAI - Healthcare Imaging / PACS-RIS Platform",
+            "technologies": "React, TypeScript, JavaScript, Node.js, Express.js, REST/FHIR APIs, MongoDB/NoSQL, Redux Toolkit, RTK Query, Zustand, Material UI, Azure DevOps, Playwright, Jest, Datadog, Grafana, Postman",
             "properties": [
               {
-                "details": "Leading a team of 3 UI developers in crafting a healthcare dashboard for TRHC, showcasing expertise in ReactJS, Redux Toolkit, Tanstack UI, and Material UI."
+                "details": "Owned end-to-end delivery of complex healthcare modules, translating product requirements into technical designs, implementation plans, frontend/backend changes, tests, controlled releases, and production support."
               },
               {
-                "details": "Designed and implemented dynamic smart tables for user, organization, customer, email queue, and fax queue data, ensuring responsiveness and user-friendly interfaces."
+                "details": "Owned the Coverage/Insurance subsystem across patient and order workflows, building reusable React/TypeScript forms and hooks for add/edit/delete flows, validation, sequencing, insurance-card handling, permissions, and integrations across multiple product contexts."
               },
               {
-                "details": "Implemented robust smart table functionalities, including sorting, pagination, search, row selection, and user preferences."
+                "details": "Developed and integrated Node.js/Express REST APIs and backend service logic for healthcare workflows, supporting Patient, Order, Study, and scheduling-related operations while coordinating API contracts and data structures with frontend consumers."
               },
               {
-                "details": "Utilized Tanstack UI utilities and ReactJS to build the application from scratch, focusing on security through JWT token-based authentication and efficient data retrieval with RTK queries."
+                "details": "Implemented asynchronous and event-driven integration patterns for scheduling and workflow updates using webhooks, supporting downstream synchronization and reliable UI/worklist refreshes."
               },
               {
-                "details": "Successfully delivered the healthcare project, providing role based access control and restrictions."
+                "details": "Designed the frontend architecture for Order-Level Coverage and delivered a major Order Creation / Order Drawer revamp with dynamic multi-step forms, backend-driven state, conditional workflows, provider search, role-aware UI, and REST/FHIR integrations."
               },
               {
-                "details": "Contributed to AIG projects, specializing in loan features for the financial application."
+                "details": "Consolidated duplicated implementations across product contexts into shared component, hook, and field architecture; built reusable Provider / Practitioner Organisation and form infrastructure to improve maintainability and extensibility."
               },
               {
-                "details": "Leveraged Node.js and Express.js to design and implement backend functionalities for one of the projects."
+                "details": "Constructed and debugged FHIR/REST payloads for Patient, Coverage, ServiceRequest, and related resources; validated APIs in Postman and resolved HTTP, integration, and data-contract issues across application layers."
+              },
+              {
+                "details": "Built and maintained Playwright E2E coverage for critical healthcare workflows and supported unit testing, SonarQube quality gates, code reviews, and feature-flagged releases."
+              },
+              {
+                "details": "Used Azure DevOps for CI/CD build validation and failure diagnosis and Datadog/Grafana/Checkly for production diagnostics and operational visibility; reproduced pipeline/E2E failures locally and ran selective pipelines."
+              },
+              {
+                "details": "Participated in technical design, Jira-based Agile planning, task breakdown, documentation, and mentoring; used AI-assisted engineering tools to accelerate implementation and testing."
               }
             ]
           }
         },
         {
           "organisation": {
-            "title": "Mphasis",
+            "title": "Mphasis Ltd.",
+            "h2": "Senior Software Engineer",
+            "h3": "Mphasis Ltd.",
+            "h5": "Dec 2021 - Mar 2024",
+            "context": "Pune | Projects: TRC Healthcare Internal Dashboard | AIG Consumer Portal | AIG Consultant Direct",
+            "technologies": "React, JavaScript, Redux Toolkit, RTK Query, React Redux, SASS, REST APIs, Axios, AEM, Jest",
+            "properties": [
+              {
+                "details": "Started as the sole frontend engineer for a new TRC Healthcare internal dashboard, establishing the initial React application structure before later leading and mentoring two junior frontend developers."
+              },
+              {
+                "details": "Built the core application architecture including JWT authentication, role-based access, application layout, navigation, and global state management, supporting users with different and multiple access levels."
+              },
+              {
+                "details": "Selected Redux Toolkit as the primary state-management approach after technical evaluation and used it for authentication, user/access information, API data, caching, asynchronous flows, and global UI state."
+              },
+              {
+                "details": "Designed and implemented reusable, data-heavy UI functionality including sorting, search, pagination, row actions, conditional selection, and row/column drag-and-drop for Smart Table workflows."
+              },
+              {
+                "details": "Assigned frontend work, reviewed code, mentored junior developers, and collaborated with API engineers, QA, product stakeholders, and technical leadership to resolve integration issues and guide Agile delivery."
+              },
+              {
+                "details": "Developed React-based features for AIG insurance applications, including payment and filtering workflows, REST API integrations, responsive AEM pages, Jest unit tests, defect resolution, and code-coverage improvements."
+              }
+            ]
+          }
+        },
+        {
+          "organisation": {
+            "title": "IBM India Pvt. Ltd.",
             "h2": "Senior System Engineer",
             "h3": "IBM India Pvt. Ltd.",
-            "h5": "January 2021 - December 2021",
+            "h5": "Jan 2021 - Dec 2021",
+            "context": "Pune | Client: Tiffany & Co. - Global E-commerce Platform",
+            "technologies": "React, JavaScript, Redux, React Router, SASS, HTML5, CSS3, AEM",
             "properties": [
               {
-                "details": "Enhanced Tiffany’s e-commerce website by designing visually appealing carousels, hero components, and banner components."
+                "details": "Developed and maintained responsive, multilingual e-commerce functionality using React, JavaScript, SASS, HTML, and CSS across desktop, tablet, and mobile experiences."
               },
               {
-                "details": "Led the creation of UI elements for new features, emphasizing the shipping details and card details pages."
+                "details": "Delivered frontend enhancements and production defect fixes within an Adobe Experience Manager (AEM) ecosystem while addressing cross-browser, responsive UI, DOM, and integration issues."
               },
               {
-                "details": "Contributed significantly to internationalization efforts, making the application accessible across multiple languages and countries."
-              },
-              {
-                "details": "Ensured website responsiveness on various devices, addressing bugs, and testing features using BrowserStack."
-              },
-              {
-                "details": "Involved in writing application-level code to interact with APIs using AJAX, AXIOS, JSON."
-              },
-              {
-                "details": "Used Lighthouse and react profiler tool for optimising code quality and application performance."
-              },
-              {
-                "details": "Involved in writing application-level code to interact with APIs using AJAX, AXIOS, JSON."
+                "details": "Investigated frontend performance and UI issues using browser developer tools, BrowserStack, and Lighthouse while collaborating with distributed teams in Agile delivery."
               }
             ]
           }
         },
         {
           "organisation": {
-            "title": "Mphasis",
+            "title": "Tata Consultancy Services",
             "h2": "System Engineer",
-            "h3": "Tata Consultansy Services",
-            "h5": "June 2018 - January 2021",
+            "h3": "Tata Consultancy Services",
+            "h5": "Jun 2018 - Jan 2021",
+            "context": "Pune | Client: Barclays - Internal Data Portal",
+            "technologies": "React, JavaScript, Apollo Client, GraphQL, Cypress, Storybook, HTML5, CSS3",
             "properties": [
               {
-                "details": "Contributed as a React developer in the Barclays Data Portal project, specializing in small to medium-complex components."
+                "details": "Developed reusable React components and frontend features for an internal BFSI data portal while participating in requirement analysis, estimation, Agile delivery, stakeholder discussions, maintenance, and defect resolution."
               },
               {
-                "details": "Key contributor to the RFT Dashboard, implementing color-coded data visualization and robust notifications."
+                "details": "Integrated GraphQL services using Apollo Client, handling queries, cached server data, asynchronous UI states, errors, and client-server data flows."
               },
               {
-                "details": "Utilized Apollo Client and Server for efficient data management, integrating real-time data updates."
-              },
-              {
-                "details": "Applied automation testing using Cypress, ensuring reliability and stability of critical functionalities."
-              },
-              {
-                "details": "Used Apollo Client to make service calls to the GraphQL backend."
-              },
-              {
-                "details": "Used jest and enzyme to write unit test cases and ensured minimum 85% code coverage."
+                "details": "Built Cypress E2E automation and Storybook component examples while contributing to developer-led testing, defect resolution, code quality, and reliable frontend releases."
               }
             ]
           }

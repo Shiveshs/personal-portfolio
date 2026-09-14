@@ -5,7 +5,7 @@ const CTA = () => {
     //CTA == call to action 
   return (
     <div className='cta'>
-        <a href={CV} download className='btn'>Download CV</a>
+        <a href={CV} download="Shivesh_Shandilya_Senior_Fullstack_Developer_CV.pdf" className='btn'>Download CV</a>
         <a href='#contact' className='btn btn-primary'>Let's Talk</a>
     </div>
   )

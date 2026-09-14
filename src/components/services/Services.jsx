@@ -12,11 +12,12 @@ const Services = () => {
       <div className="container services__container">
         {data.properties.experiences.properties.map((org, index) => {
           return (
-            <article className="service">
+            <article key={org.organisation.h3} className="service">
               <div className="service__head">
                 <h2>{org.organisation.h2}</h2>
                 <h3>{org.organisation.h3}</h3>
                 <h5>{org.organisation.h5}</h5>
+                <p className="service__context">{org.organisation.context}</p>
               </div>
               <ul className="service__list">
                 {org.organisation.properties.map((property, index) => {
@@ -28,6 +29,7 @@ const Services = () => {
                   );
                 })}
               </ul>
+              <p className="service__technologies"><strong>Technologies:</strong> {org.organisation.technologies}</p>
             </article>
           );
         })}

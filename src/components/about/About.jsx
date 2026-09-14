@@ -12,7 +12,7 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={ME} alt="About Image" />
+            <img src={ME} alt="Shivesh Shandilya" />
           </div>
         </div>
         <div className="about__content">
@@ -36,6 +36,11 @@ const About = () => {
             <br /> {data.properties.summary.properties.line2}
             <br /> {data.properties.summary.properties.line3}
           </p>
+
+          <div className="about__education">
+            <h3>Education</h3>
+            <p>Bachelor of Technology (B.Tech), Electronics and Communication Engineering<br />Techno India Salt Lake, Kolkata<br />2014 - 2018 · CGPA: 8.18</p>
+          </div>
 
           <a href="#contact" className="btn btn-primary">
             {data.properties.link.properties.link}

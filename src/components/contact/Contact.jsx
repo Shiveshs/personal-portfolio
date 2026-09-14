@@ -2,8 +2,7 @@ import React, { useRef } from "react";
 import emailjs from "emailjs-com";
 import "./contact.css";
 import { MdOutlineMailOutline } from "react-icons/md";
-import { RiMessengerLine } from "react-icons/ri";
-import { AiOutlineWhatsApp } from "react-icons/ai";
+
 import data from "./contactData.json";
 
 const Contact = () => {
@@ -45,7 +44,7 @@ const Contact = () => {
                 <MdOutlineMailOutline className="contact__option-icon" />
                 <h4>{property.subtitle}</h4>
                 <h5>{property.details}</h5>
-                <a href="mailto:shivesh.shandilya1@gmail.com" target="_blank">
+                <a href={property.href}>
                   {property.link}
                 </a>
               </article>

@@ -1,92 +1,100 @@
-{
-  "title": "experience",
-  "description": "Experience Page",
-  "type": "object",
-  "properties": {
-    "pageTitle": {
-      "description": "Title of the page",
-      "type": "object",
-      "properties": { "h5": "Skills I Have", "h2": "My Experience" }
-    },
-    "subtitles": {
-      "description": "Subtitles of the page",
-      "type": "array",
-      "properties": {
-        "frontend": {
-          "title": "Frontend Development",
-          "properties": [
-            {
-              "subtitle": "HTML5",
-              "details": "Experienced"
-            },
-            {
-              "subtitle": "CSS3",
-              "details": "Experienced"
-            },
-            {
-              "subtitle": "SASS",
-              "details": "Intermediate"
-            },
-            {
-              "subtitle": "JavaScript",
-              "details": "Experienced"
-            },
-            {
-              "subtitle": "ReactJS",
-              "details": "Expert"
-            },
-            {
-              "subtitle": "Redux Toolkit",
-              "details": "Experienced"
-            },
-            {
-              "subtitle": "Material UI",
-              "details": "Experienced"
-            },
-            {
-              "subtitle": "NextJS",
-              "details": "Basic"
-            }
-          ]
-        },
-        "backend": {
-          "title": "Backend Development",
-          "properties": [
-            {
-              "subtitle": "NodeJS",
-              "details": "Basic"
-            },
-            {
-              "subtitle": "ExpressJS",
-              "details": "Basic"
-            },
-            {
-              "subtitle": "GraphQL",
-              "details": "Intermediate"
-            },
-            {
-              "subtitle": "MongoDB",
-              "details": "Basic"
-            },
-            {
-              "subtitle": "Firebase",
-              "details": "Intermediate"
-            },
-            {
-              "subtitle": "Apollo Server",
-              "details": "Basic"
-            },
-            {
-              "subtitle": "My SQL",
-              "details": "Experienced"
-            },
-            {
-              "subtitle": "REST Api",
-              "details": "Experienced"
-            }
-          ]
-        }
-      }
-    }
+[
+  {
+    "title": "Languages",
+    "items": [
+      "JavaScript (ES6+)",
+      "TypeScript",
+      "HTML5",
+      "CSS3",
+      "JSON"
+    ]
+  },
+  {
+    "title": "Frontend",
+    "items": [
+      "React.js",
+      "React Router",
+      "Material UI",
+      "Tailwind CSS",
+      "SCSS/SASS",
+      "Responsive Design",
+      "Accessibility"
+    ]
+  },
+  {
+    "title": "Backend",
+    "items": [
+      "Node.js",
+      "Express.js",
+      "REST API Development",
+      "Webhooks",
+      "Asynchronous/Event-Driven Integration"
+    ]
+  },
+  {
+    "title": "Databases",
+    "items": [
+      "MongoDB",
+      "NoSQL Concepts",
+      "Data Modeling"
+    ]
+  },
+  {
+    "title": "State & Data",
+    "items": [
+      "Redux",
+      "Redux Toolkit",
+      "RTK Query",
+      "Zustand",
+      "Caching"
+    ]
+  },
+  {
+    "title": "API & Integration",
+    "items": [
+      "REST APIs",
+      "FHIR APIs",
+      "Axios",
+      "Postman",
+      "GraphQL",
+      "Apollo Client",
+      "DICOM-related Workflows"
+    ]
+  },
+  {
+    "title": "Testing & Quality",
+    "items": [
+      "Playwright",
+      "Cypress",
+      "Jest",
+      "Unit/Integration/E2E Testing",
+      "SonarQube",
+      "Checkly"
+    ]
+  },
+  {
+    "title": "DevOps & Observability",
+    "items": [
+      "Azure",
+      "Azure DevOps Pipelines",
+      "CI/CD Build Validation",
+      "Grafana",
+      "Datadog",
+      "Checkly"
+    ]
+  },
+  {
+    "title": "Tools & Delivery",
+    "items": [
+      "Git",
+      "GitHub",
+      "Jira",
+      "Confluence",
+      "Vite",
+      "Webpack",
+      "Storybook",
+      "Agile/Scrum",
+      "AI-Assisted  Development"
+    ]
   }
-}
+]
