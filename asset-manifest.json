@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/personal-portfolio/static/css/main.62b9fe45.css",
-    "main.js": "/personal-portfolio/static/js/main.11011a92.js",
+    "main.css": "/personal-portfolio/static/css/main.5e9ebbdb.css",
+    "main.js": "/personal-portfolio/static/js/main.11d127d2.js",
     "static/media/me-about.jpg": "/personal-portfolio/static/media/me-about.0e77433c7a0122c9d1c9.jpg",
     "static/media/portfolio1.PNG": "/personal-portfolio/static/media/portfolio1.dea19edcb4e15098746f.PNG",
     "static/media/bikas.jpg": "/personal-portfolio/static/media/bikas.9a6bf57006c03b14f3a1.jpg",
     "static/media/laxmi.jpg": "/personal-portfolio/static/media/laxmi.2afafc9d022729e5f15a.jpg",
-    "static/media/CV.pdf": "/personal-portfolio/static/media/CV.2dc9851b505c76314261.pdf",
     "static/media/me.png": "/personal-portfolio/static/media/me.52087b3345e1d3f54366.png",
     "static/media/renuka.jpg": "/personal-portfolio/static/media/renuka.c83952bd539b678abd81.jpg",
     "static/media/femaleAvatar.png": "/personal-portfolio/static/media/femaleAvatar.1a37251c6333f0c03fe7.png",
+    "static/media/CV.pdf": "/personal-portfolio/static/media/CV.15b678a15109129131be.pdf",
     "static/media/portfolio2.PNG": "/personal-portfolio/static/media/portfolio2.9734186510edc474b2e0.PNG",
     "static/media/bg-texture.png": "/personal-portfolio/static/media/bg-texture.1268c6019129069b9a9d.png",
     "index.html": "/personal-portfolio/index.html",
-    "main.62b9fe45.css.map": "/personal-portfolio/static/css/main.62b9fe45.css.map",
-    "main.11011a92.js.map": "/personal-portfolio/static/js/main.11011a92.js.map"
+    "main.5e9ebbdb.css.map": "/personal-portfolio/static/css/main.5e9ebbdb.css.map",
+    "main.11d127d2.js.map": "/personal-portfolio/static/js/main.11d127d2.js.map"
   },
   "entrypoints": [
-    "static/css/main.62b9fe45.css",
-    "static/js/main.11011a92.js"
+    "static/css/main.5e9ebbdb.css",
+    "static/js/main.11d127d2.js"
   ]
 }
